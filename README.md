@@ -4,13 +4,21 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is made as test exam for a Flutter application job.
 
-A few resources to get you started if this is your first Flutter project:
+Library use:
+dart_mappable -> For handling data of the app
+dio -> For handling api calls
+bloc/equatable -> For handling state management
+visibility_detector -> For handling onresume in home screen
+intl -> For handling using date info
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How to run the project:
+```
+flutter run lib/main.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+How to test the project:
+```
+flutter test test/send_money_test.dart
+```
