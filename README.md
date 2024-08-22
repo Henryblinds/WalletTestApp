@@ -1,4 +1,4 @@
-# walletexamapp
+# WalletTestApp
 
 A new Flutter project.
 
